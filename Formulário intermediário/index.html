@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Lojas americanas</title>
+</head>
+<body>
+    
+    <picture>
+    
+        <img src="lojas americanas.png">
+    </picture>
+ 
+    <form action="">
+        
+ <fieldset>
+            <legend> Cadastro geral Lojas americanas</legend>
+            <fieldset id="dp1">
+<legend> Dados pessoais</legend>
+<label for="nome">Nome completo:</label>
+<input name="nome" type="text" id="nome"/>
+<label for="prof">Profissão:</label>
+<select id="prof">
+
+    <option selected="selected">Sua profissão</option>
+
+    <optgroup label="Vendedor"></optgroup>
+    <optgroup label="Empresário"></optgroup>
+    <optgroup label="Administrador"></optgroup>
+    <optgroup label="Médico"></optgroup>
+    <optgroup label="Advogado"></optgroup>
+    <optgroup label="Programador"></optgroup>
+
+    </select>
+    </fieldset>
+
+    <fieldset id="dp2">
+        <legend>Localização</legend>
+        <label for="email"> E-mail: </label>
+        <input type="text" id="email"/>
+        <label for="rua">Rua:</label>
+        <input type="text" id="Rua"/>
+    </fieldset>
+<fieldset id="fe">
+    <legend> Faixa etária </legend>
+
+    <div>
+        <p><input type="radio" name="idade" id="vinte"/> 
+        <label for="vinte">até 20 anos</label></p>
+        </div>
+<div>
+<p><input type="radio" name="idade" id="cinquenta"/>
+    <label for="cinquenta">mais de 40 até 50 anos</label> </p>
+    </div>
+</fieldset>
+<fieldset id="es"> 
+    <egend> Tipos de produtos que você mais compra </egend>
+    <ul>
+        <li><input type="checkbox" id="fca"/><label for="fca">informática </label></li>
+        <li><input type="checkbox" id="fca"/><label for="fca">celular </label></li>
+        <li><input type="checkbox" id="fca"/><label for="fca">eletro  doméstico </label></li>
+        <li><input type="checkbox" id="fca"/><label for="fca">eletroportáteis </label></li>
+        <li><input type="checkbox" id="fca"/><label for="fca">moveis </label></li>
+        <li><input type="checkbox" id="fca"/><label for="fca">Papelaria </label></li>
+        <li><input type="checkbox" id="fca"/><label for="fca">livros </label></li>
+        <li><input type="checkbox" id="fca"/><label for="fca">tv e home theater</label></li>
+    </ul>
+</fieldset>  
+</fieldset>
+<fieldset id="com">
+    <legend>Comentário</legend>
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" rows="6" cols="28"></textarea>
+</fieldset>
+<p><input type="submit" value="Enviar" id="enviar"/>
+<input type = "reset" value="Limpar" id ="limpar"/></p>
+
+</form>
+
+</body>
+</html>
